@@ -4,7 +4,7 @@ const HomePage = () => {
   return (
     <div className="w-screen h-screen">
       <div className="flex justify-center items-center w-full h-full">
-        <h1 className="text-2xl font-bold text-gray-800">Welcome to Home Page</h1>
+        <h1 className="text-2xl font-bold text-gray-800">Jared Should Have Given Me Access to the Notion last Saturday</h1>
       </div>
     </div>
   );
