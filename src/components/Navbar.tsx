@@ -25,6 +25,12 @@ const Navbar: React.FC<NavbarProps> = ({ links, titles }) => {
         >
           Firebase
         </Link>
+        <Link
+          to="/create-task"
+          className="block mt-4 sm:inline-block sm:mt-0 text-primary-light hover:text-white mr-4"
+        >
+          {titles[1]}
+        </Link>
       </div>
     </nav>
   );

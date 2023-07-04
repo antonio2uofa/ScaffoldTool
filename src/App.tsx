@@ -9,13 +9,13 @@ function App() {
   return (
     <>
       <Router>
-        <Navbar links={["/"]} titles={["Home"]} />
+        <Navbar links={["/"]} titles={["Home", "Create"]} />
         <Routes>
           <Route path="/" element={<HomePage />}></Route>
           <Route path="/firebase-connection" element={<FirebasePage />}></Route>
+          <Route path="/create-task" element={<Create />}></Route>
         </Routes>
       </Router>
-      <Create Title={} Description={} DueDate={} Priority={} Status={}></Create>
     </>
   );
 }
